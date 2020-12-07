@@ -424,8 +424,8 @@ nav a {
     align-items: center;
     box-sizing: border-box;
     text-decoration: none;
-    width: 7vw;
-    height: 5vh;
+    width: 8vw;
+    height: 6vh;
     border: 1px solid black;
     color: bisque;
     text-shadow: 1px 1px black;
@@ -453,8 +453,12 @@ footer nav img {
 
 /* Media Queries*/
 @media (max-width: 800px){ /*Tablet Size*/
-
+  nav a{
+    width: 16vw;
+    height: 8vh;
+  }
 }
+
 @media (max-width: 500px){ /* Phone Size */
   /* nav items in columns*/
   header nav, footer nav{
@@ -481,5 +485,8 @@ footer nav img {
   }
   #projects-preview p{
     padding: 4vh 10vw;
+  }
+  .container{
+    padding: 0 2vw;
   }
 }
